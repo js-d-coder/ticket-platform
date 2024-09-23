@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "commonjs",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "lib": [
+      "es6",
+      "dom"
+    ], // Include libraries
+    "outDir": "./dist", // Output directory for compiled files
+    "rootDir": "./src", // Root directory of source files
+    "experimentalDecorators": true, // Enable experimental support for decorators
+    "emitDecoratorMetadata": true // Emit design-type metadata for decorated declarations
+  },
+  "include": [
+    "src/**/*"
+  ], // Include all TypeScript files in the src directory
+  "exclude": [
+    "node_modules"
+  ] // Exclude node_modules
+}
